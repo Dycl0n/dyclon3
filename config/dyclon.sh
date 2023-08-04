@@ -1,15 +1,15 @@
 #!/bin/bash
 function display_ascii_art2() {
-    cat <<-EOF 
+    cat <<-EOF
 ░█▀▄░█░█░█▀▀░█░░░█▀█░█▀█░░░▀█▀░█▀█░█▀▀░▀█▀░█▀█░█░░░█░░░█▀▀░█▀▄
 ░█░█░░█░░█░░░█░░░█░█░█░█░░░░█░░█░█░▀▀█░░█░░█▀█░█░░░█░░░█▀▀░█▀▄
 ░▀▀░░░▀░░▀▀▀░▀▀▀░▀▀▀░▀░▀░░░▀▀▀░▀░▀░▀▀▀░░▀░░▀░▀░▀▀▀░▀▀▀░▀▀▀░▀░▀
 EOF
 }
 
-display_ascii_art2 
+display_ascii_art2
 
-folder_path="$HOME/dycl0n"  # Replace with the actual folder path
+folder_path="$HOME/dyclon3/config"  # Replace with the actual folder path
 
 echo " Dyclon Installer"
 read -p "Do you want to copy the contents of $folder_path to your home folder? (yes/no): " answer
